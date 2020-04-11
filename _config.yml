@@ -1,0 +1,46 @@
+title: Alefh Sousa
+email: alefh.sousa@gmail.com
+description: Software Engineer, Professor e Cozinheiro
+author: Alefh Sousa
+baseurl:
+url: "https://blackrockdigital.github.io"
+
+not_found:
+  title: "Ops...."
+  description: Parace que o Vincent não conseguiu encontrar o que você pediu :(
+
+comments: true
+
+# Social Profiles
+twitter_username: alefhsousa
+github_username: alefhsousa
+linkedin_username: alefhsousa
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics: UA-65632737-1
+
+highlighter: rouge
+
+permalink: /:title/
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
