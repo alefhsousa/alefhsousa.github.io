@@ -11,7 +11,9 @@ background: "/img/posts/01.jpg"
 
 Já faz um tempo que a versão **1.0** desse blog saiu do papel, entretanto não dediquei tempo ao blog e o resultado foi que não escrevi nenhum post em **2016**.
 
-<img src="https://media.giphy.com/media/l0HlvtIPzPdt2usKs/giphy.gif" alt="drawing" width="600"/>
+<div class="container"> 
+    <img src="https://media.giphy.com/media/l0HlvtIPzPdt2usKs/giphy.gif" class="img-fluid"/>
+</div>
 
 ## O retorno
 
@@ -23,7 +25,8 @@ Vou tentar manter uma rotina para escrever post e trazer conteúdos interessante
 
 Até mais galera :D
 
-![](https://media.giphy.com/media/RDbZGZ3O0UmL6/giphy.gif)
+<img src="https://media.giphy.com/media/RDbZGZ3O0UmL6/giphy.gif" class="img-fluid"/>
+
 
 [jekyll]: http://jekyllrb.com
 [ghost]: https://ghost.org
